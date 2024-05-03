@@ -12,14 +12,14 @@ library("readxl")
 library("pkgbuild")
 library("rollRegres")
 # Import Data Excel Into R From Github Olah Data Semarang (timbulwidodostp)
-github_link <- "https://github.com/timbulwidodostp/prodest_r/raw/main/prodest_r/prodest_r.xlsx"
+github_link <- "https://github.com/timbulwidodostp/RollRegres/raw/main/RollRegres/RollRegres.xlsx"
 temp_file <- tempfile(fileext = ".xlsx")
 req <- GET(github_link, 
 # authenticate using GITHUB_PAT
 authenticate(Sys.getenv("GITHUB_PAT"), ""),
 # write result to disk
 write_disk(path = temp_file))
-prodest_r <- readxl::read_excel(temp_file)
+RollRegres <- readxl::read_excel(temp_file)
 # Estimate Rolling Regression Use roll_regres With (In) R Software
 Rolling_Regression <- roll_regres(y ~ X1, RollRegres, width = 5L)
 Rolling_Regression$coefs
