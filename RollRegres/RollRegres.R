@@ -2,6 +2,9 @@
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
 # Rolling Regression Use roll_regres (rollRegres) With (In) R Software
+# Fast rolling and expanding linear regression models Use roll_regres (rollRegres) With (In) R Software
+# Fast rolling and expanding window linear regression Use roll_regres (rollRegres) With (In) R Software
+# Fitting Rolling and Expanding Linear Models Use roll_regres (rollRegres) With (In) R Software
 install.packages("readxl")
 install.packages("httr")
 install.packages("devtools")
@@ -24,6 +27,9 @@ RollRegres <- readxl::read_excel(temp_file)
 Rolling_Regression <- roll_regres(y ~ X1, RollRegres, width = 5L)
 Rolling_Regression$coefs
 # Rolling Regression Use roll_regres (rollRegres) With (In) R Software
+# Fast rolling and expanding linear regression models Use roll_regres (rollRegres) With (In) R Software
+# Fast rolling and expanding window linear regression Use roll_regres (rollRegres) With (In) R Software
+# Fitting Rolling and Expanding Linear Models Use roll_regres (rollRegres) With (In) R Software
 # Olah Data Semarang
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
