@@ -7,6 +7,8 @@ Fast rolling and expanding window linear regression Use roll_regres (rollRegres)
 
 Fitting Rolling and Expanding Linear Models Use roll_regres (rollRegres) With (In) R Software
 
+https://www.youtube.com/watch?v=nsA0POM_KhY
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
